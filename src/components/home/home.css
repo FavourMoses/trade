@@ -390,9 +390,10 @@ position: absolute;}
 
 .content-second{
   visibility: hidden;
-position: absolute;}
+position: absolute;
+}
 /* Media Queries */
-@media (max-width: 430px) {
+@media (max-width: 430px){
   .circle {
   width: 14rem;
   height: 25vh;
@@ -662,7 +663,7 @@ background-color: #fff;
 }
 
 }
-@media (max-width:940px){
+@media (min-width:940px){
    .circle {
   width: 14rem;
   height: 40vh;
