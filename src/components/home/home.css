@@ -681,7 +681,7 @@ background-color: #fff;
   width: 7%;
 }
 }
-@media screen and (maxg-width: 430px){
+@media screen and (max-width: 430px){
   .circle {
   width: 14rem;
   height: 25vh;
