@@ -22,14 +22,16 @@ import bmulti from "../../assets/bmulti.png";
 import whiteb from "../../assets/whiteb.png";
 import chartSmallScreen from "../../assets/chartSmallScreen.png";
 import Right from './right';
+import { GiNetworkBars } from "react-icons/gi";
+import { BiSolidMessageDetail } from "react-icons/bi";
 const Home = () => {
     return (
       <div className="bgc">
         <div className="circle"></div>
         <div className="cicle2"></div>
-        < div className="blue">
+        <div className="blue">
           <div className="blue-axis">
-            <img className='bb' src={bb} alt="blue-bulb" />
+            <img className="bb" src={bb} alt="blue-bulb" />
             <div>
               <img className="hs" src={house} alt="house" />
             </div>
@@ -39,7 +41,7 @@ const Home = () => {
               <img src={bmulti} alt="bmulti" />
             </div>
           </div>
-          
+
           <div className="white">
             <div className="white-flex">
               <div>
@@ -63,6 +65,14 @@ const Home = () => {
                 <img src={visitors} alt='visitors'/> <div><p>Visitors</p>
                 <h3>10,320</h3></div>
               </div> */}
+                  <div className="network-icon">
+                    <GiNetworkBars className="bar" />
+
+                    <a href="/result">
+                      <BiSolidMessageDetail className="msDetail" />
+                    </a>
+                  </div>
+
                   <div className="hcom">
                     <Hcomp imag={visitors} word="Visitors" headp="10,320" />
                     <Hcomp
@@ -78,8 +88,22 @@ const Home = () => {
                       whi="#ffffff"
                     />
                   </div>
-                  <img className="chart-small" src={chartSmallScreen} alt="chart" />
+
+                  <img
+                    className="chart-small"
+                    src={chartSmallScreen}
+                    alt="chart"
+                  />
+                  <div className="blue-down">
+                    <img className="bd-h1" src={house} alt="house" />
+                    <div className="bd-icons">
+                      <img className="bdEach1" src={bclock} alt="bclock" />
+                      <img className="bdEach" src={bmessage} alt="message" />
+                      <img className="bdEach" src={bmulti} alt="bmulti" />
+                    </div>
+                  </div>
                   <img className="chart-i" src={chartpic} alt="chart" />
+
                   <div className="daysdiv">
                     <img className="days" src={days} alt="days" />
                     <div className="lily-parent">
